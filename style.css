@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(240,226,226,255); /* light pink background color */
+}
+h2{
+    color: black;
+}
+.social-icons #img{
+color: black;
+}
+p{
+    color: black;
+}
+.login-container {
+    display: flex;
+    height: 30rem;
+    max-width: 800px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #f1b9b9; /* white background color for the container */
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6); /* dark black shadow added */
+}
+
+.login-details, .company-details {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.login-container .login-details .login-form h2{
+    cursor: pointer;
+}
+.login-container .login-details .login-form p{
+    cursor: pointer;
+}
+.login-details {
+    background-color: white;
+    color: #fff;
+}
+
+.company-details {
+    background-color: rgba(235,83,104,255);
+    /* color: white; */
+}
+.company-details h2{
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    justify-content: center;
+}
+.company-details p{
+    color: white;
+    font-weight: normal;
+    text-align: center;
+    /* display: flex; */
+    /* justify-content: ; */
+}
+.login-form {
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(227,106,84,255);
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.social-icons {
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 20px;
+}
+
+
+.social-icons #img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.social-icons #img:hover{
+    background-color: rgb(243, 233, 233);
+    border-radius:50%;
+    padding: .2rem;
+    
+}
+.forgot-password {
+    margin-top: 10px;
+    border-radius: 30%;
+    color: black;
+    text-decoration: none;
+}

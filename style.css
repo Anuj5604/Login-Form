@@ -23,7 +23,7 @@ p{
     max-width: 800px;
     border-radius: 10px;
     overflow: hidden;
-    background-color: #f1b9b9; /* white background color for the container */
+    background-color: #f1b9b9; 
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6); /* dark black shadow added */
 }
 
@@ -48,7 +48,7 @@ p{
 
 .company-details {
     background-color: rgba(235,83,104,255);
-    /* color: white; */
+
 }
 .company-details h2{
     color: white;
@@ -60,8 +60,7 @@ p{
     color: white;
     font-weight: normal;
     text-align: center;
-    /* display: flex; */
-    /* justify-content: ; */
+  
 }
 .login-form {
     max-width: 300px;

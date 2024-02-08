@@ -60,7 +60,8 @@ p{
     color: white;
     font-weight: normal;
     text-align: center;
-  
+    /* display: flex; */
+    /* justify-content: ; */
 }
 .login-form {
     max-width: 300px;
